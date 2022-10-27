@@ -1,0 +1,51 @@
+
+body{
+  background-color: rgba(216, 242, 242, 0.659);  
+font-size: 1rem;
+color: rgba(186, 23, 23, 0.863);
+font-weight: 200;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-transform: capitalize;
+margin: 20px;
+box-sizing: border-box;
+}
+
+h1{
+  text-align: center;
+   text-transform: uppercase; 
+   text-decoration: underline;
+   font-weight: 500;
+   color: rgba(206, 6, 6, 0.985);
+}
+
+form{
+background-color: rgba(32, 42, 44, 0.781);
+border-radius: 5%;
+}
+
+div{
+ padding:5px 10px 80px 5px; 
+ margin: 25px 25px 40px 25px;  
+ background-color: rgba(155, 189, 189, 0.644); 
+}
+
+a{
+  color: rgb(205, 27, 7);  
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+@media (min-width:320px) and (max-width:1200px) {
+.all{
+  border: none;
+}
+
+}
+
+input:focus{
+
+  outline-color: rgba(102, 114, 114, 0.893);
+}
+
+
